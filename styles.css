@@ -1,0 +1,73 @@
+.red, .purple, .aqua, .navy, .olive, .yellow{
+  height: 200px;
+  width:200px;
+  display:inline-block;
+  border: 1px solid #cdcdcdcd;
+    border-radius: 20%;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.rideau:hover{
+background-color: blue;
+cursor: pointer
+
+
+}
+.rideau2:hover{
+background-color: blue;
+
+margin-top:-90px;
+
+cursor: pointer
+}
+
+
+.rideau{
+
+height: 170px;
+margin-top:-77px;
+  z-index:3;
+    transition-duration: 4s;
+    border-radius: 22%;
+}
+.rideau2{
+
+height: 147px;
+margin-top:-77px;
+  z-index:3;
+    transition-duration: 4s;
+    border-radius: 22%;
+
+}
+.grey{
+  background-color: grey;
+  width: 800px;
+height: 480px;
+z-index: 1;
+
+}
+
+.red{
+    background-color: red;
+    z-index: 2;
+
+
+}
+.purple{
+  background-color: purple;
+
+
+}
+.aqua{
+    background-color: aqua;
+}
+.navy{
+  background-color:navy;
+}
+.olive{
+  background-color: olive;
+}
+.yellow{
+  background-color: yellow;
+}
